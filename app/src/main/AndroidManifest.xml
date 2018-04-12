@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mis.helloandroid">
-
+    package="com.mis.ass1.assignment1">
+    <!-- The folowing permisiins are to allow the app to acess the internet, make a request & receive a response -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".HttpClientApp"
+            android:configChanges="orientation|keyboardHidden|keyboard">
+            <!-- configChanges - it is used to keep showing the content on screen
+            when the orientation on mobile is changed -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,5 +23,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
