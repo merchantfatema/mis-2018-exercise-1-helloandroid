@@ -1,0 +1,19 @@
+/*
+* Name: Assignment No.1
+* Created Date: 09 April, 2018
+* Purpose: To create an Android HTTP Client App
+* Student Name: Fatema Merchant
+* Student Id: 119431
+* */
+
+
+Referred the following:
+- Android Developer Guide: https://developer.android.com/guide/index.html
+
+- https://developer.android.com/reference/android/os/AsyncTask.html
+
+- https://developer.android.com/training/keyboard-input/commands.html
+
+- https://stackoverflow.com/questions/1109022/close-hide-the-android-soft-keyboard
+
+- https://stackoverflow.com/questions/1748977/making-textview-scrollable-on-android
